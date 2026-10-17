@@ -34,6 +34,30 @@
     "feed": "epic"
   },
   {
+    "id": "itch-the-black-within",
+    "platform": "itch",
+    "title": "The Black Within",
+    "image": "https://www.gamerpower.com/offers/1b/67cb0e32bf51c.jpg",
+    "description": "Download The Black Within for free via itch.io! The Black Within is a single-player first-person psychological game with creepy atmosphere and puzzles. Check it out!",
+    "claimUrl": "https://www.gamerpower.com/open/the-black-within-itch-io-giveaway",
+    "startDate": "2026-10-17T22:29:24",
+    "endDate": "2026-10-25T05:29:59",
+    "source": "auto",
+    "feed": "gamerpower"
+  },
+  {
+    "id": "itch-the-green-light",
+    "platform": "itch",
+    "title": "The Green Light",
+    "image": "https://www.gamerpower.com/offers/1b/6a369af2d25aa.jpg",
+    "description": "Download The Green Light for free via itch.io until October 24th 2026. The Green Light is a indie first person game with a creepy atmosphere. Check it out!",
+    "claimUrl": "https://www.gamerpower.com/open/the-green-light-itch-io-giveaway",
+    "startDate": "2026-10-17T22:25:46",
+    "endDate": "2026-10-30T05:29:00",
+    "source": "auto",
+    "feed": "gamerpower"
+  },
+  {
     "id": "itch-dual-chroma-academy-carols",
     "platform": "itch",
     "title": "Dual Chroma: Academy Carols",

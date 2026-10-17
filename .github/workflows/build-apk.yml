@@ -1,0 +1,81 @@
+name: Build APK
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "app/**"
+      - ".github/workflows/build-apk.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      # One fixed signing key, created on the first run and kept in the repo,
+      # so every new APK installs as an UPDATE over the old one.
+      - name: Prepare signing key
+        run: |
+          mkdir -p ~/.android
+          if [ ! -f keystore/debug.keystore ]; then
+            mkdir -p keystore
+            keytool -genkeypair -keystore keystore/debug.keystore \
+              -storepass android -alias androiddebugkey -keypass android \
+              -keyalg RSA -keysize 2048 -validity 10000 \
+              -dname "CN=Android Debug,O=Android,C=US"
+            git config user.name "free-games-bot"
+            git config user.email "bot@users.noreply.github.com"
+            git add keystore/debug.keystore
+            git commit -m "Add signing key [skip ci]"
+            git pull --rebase
+            git push
+          fi
+          cp keystore/debug.keystore ~/.android/debug.keystore
+
+      - name: Generate Android project and apply app code
+        run: |
+          flutter create --org com.mpm --project-name freegames --platforms android build_app
+          rm -rf build_app/lib build_app/test
+          cp -r app/lib build_app/lib
+          cp app/pubspec.yaml build_app/pubspec.yaml
+          cd build_app
+          # Firebase needs minSdk 23
+          sed -i 's/minSdk = flutter.minSdkVersion/minSdk = 23/; s/minSdkVersion flutter.minSdkVersion/minSdkVersion 23/' android/app/build.gradle*
+          # Release builds need INTERNET; Android 13+ needs POST_NOTIFICATIONS
+          sed -i 's|<manifest xmlns:android="http://schemas.android.com/apk/res/android">|&\n    <uses-permission android:name="android.permission.INTERNET"/>\n    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>|' android/app/src/main/AndroidManifest.xml
+          sed -i 's/android:label="freegames"/android:label="Free Game Deals"/' android/app/src/main/AndroidManifest.xml
+
+      - name: Build release APK
+        working-directory: build_app
+        run: |
+          flutter pub get
+          flutter build apk --release \
+            --dart-define=GAMES_URL="https://raw.githubusercontent.com/${{ github.repository }}/${{ github.event.repository.default_branch }}/games.json" \
+            --dart-define=FB_API_KEY="${{ secrets.FB_API_KEY }}" \
+            --dart-define=FB_APP_ID="${{ secrets.FB_APP_ID }}" \
+            --dart-define=FB_SENDER_ID="${{ secrets.FB_SENDER_ID }}" \
+            --dart-define=FB_PROJECT_ID="${{ secrets.FB_PROJECT_ID }}"
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp build_app/build/app/outputs/flutter-apk/app-release.apk free-games.apk
+          gh release create "build-${{ github.run_number }}" free-games.apk \
+            --title "Build ${{ github.run_number }}" \
+            --notes "Native Android APK. Install over the previous version to update." \
+            --latest

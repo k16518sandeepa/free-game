@@ -1,0 +1,47 @@
+name: Update free games
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"   # every 3 hours
+  workflow_dispatch:
+  push:
+    paths:
+      - "games.json"        # runs when you edit games.json by hand (sends push for new manual games)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-games
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install firebase-admin
+
+      - name: Fetch deals and send push
+        run: python scripts/update_games.py
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+
+      - name: Commit changes
+        run: |
+          git config user.name "free-games-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add games.json notified.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update free games [skip ci]"
+            git pull --rebase
+            git push
+          fi

@@ -220,7 +220,10 @@ def send_push(games, creds_json):
     msg = messaging.Message(
         topic=TOPIC,
         notification=messaging.Notification(title=title, body=body, image=image),
-        android=messaging.AndroidConfig(priority="high"),
+        android=messaging.AndroidConfig(
+            priority="high",
+            notification=messaging.AndroidNotification(icon="ic_notification", color="#E50000"),
+        ),
     )
     try:
         messaging.send(msg)

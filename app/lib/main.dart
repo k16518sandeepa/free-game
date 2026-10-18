@@ -16,6 +16,8 @@ const FirebaseOptions kFirebaseOptions = FirebaseOptions(
   projectId: String.fromEnvironment('FB_PROJECT_ID'),
 );
 const String kTopic = 'free-games';
+const Color kMpmRed = Color(0xFFE50000);
+const Color kMpmBg = Color(0xFF0B0B0F);
 
 final GlobalKey<ScaffoldMessengerState> messengerKey =
     GlobalKey<ScaffoldMessengerState>();
@@ -135,14 +137,24 @@ class FreeGamesApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Free Game Deals',
+      title: 'MPM Free Games',
       debugShowCheckedModeBanner: false,
       scaffoldMessengerKey: messengerKey,
       theme: ThemeData(
         useMaterial3: true,
+        brightness: Brightness.dark,
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.deepPurple,
+          seedColor: kMpmRed,
           brightness: Brightness.dark,
+        ).copyWith(
+          primary: kMpmRed,
+          onPrimary: Colors.white,
+          surface: const Color(0xFF14141A),
+        ),
+        scaffoldBackgroundColor: kMpmBg,
+        appBarTheme: const AppBarTheme(
+          backgroundColor: kMpmBg,
+          surfaceTintColor: Colors.transparent,
         ),
       ),
       home: const HomePage(),
@@ -172,7 +184,45 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Free Game Deals')),
+      appBar: AppBar(
+        titleSpacing: 12,
+        title: Row(
+          children: [
+            ClipRRect(
+              borderRadius: BorderRadius.circular(8),
+              child: Image.asset(
+                'assets/logo.png',
+                width: 36,
+                height: 36,
+                errorBuilder: (_, __, ___) =>
+                    const SizedBox(width: 36, height: 36),
+              ),
+            ),
+            const SizedBox(width: 10),
+            const Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text('MPM',
+                    style: TextStyle(
+                        fontWeight: FontWeight.w900,
+                        letterSpacing: 2,
+                        fontSize: 18)),
+                Text('FREE GAME DEALS',
+                    style: TextStyle(
+                        fontSize: 11,
+                        letterSpacing: 1.5,
+                        fontWeight: FontWeight.w700,
+                        color: kMpmRed)),
+              ],
+            ),
+          ],
+        ),
+        bottom: PreferredSize(
+          preferredSize: const Size.fromHeight(2),
+          child: Container(height: 2, color: kMpmRed),
+        ),
+      ),
       body: FutureBuilder<List<Game>>(
         future: _future,
         builder: (context, snap) {
@@ -237,12 +287,30 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 for (final g in shown) GameCard(game: g),
-                const Padding(
-                  padding: EdgeInsets.symmetric(vertical: 16),
-                  child: Text(
-                    'Deals via Epic Games Store & GamerPower',
-                    textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 12, color: Colors.white54),
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 16),
+                  child: Column(
+                    children: [
+                      TextButton.icon(
+                        onPressed: () => launchUrl(
+                          Uri.parse('https://motionpicturemafia.com'),
+                          mode: LaunchMode.externalApplication,
+                        ),
+                        icon: const Icon(Icons.public, size: 18),
+                        label: const Text('motionpicturemafia.com'),
+                      ),
+                      const Text(
+                        "Motion Picture Mafia · Sri Lanka's entertainment community",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(fontSize: 12, color: Colors.white70),
+                      ),
+                      const SizedBox(height: 4),
+                      const Text(
+                        'Deals via Epic Games Store & GamerPower',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(fontSize: 11, color: Colors.white38),
+                      ),
+                    ],
                   ),
                 ),
               ],

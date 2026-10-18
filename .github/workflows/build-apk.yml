@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - "app/**"
+      - "scripts/make_icons.py"
       - ".github/workflows/build-apk.yml"
 
 permissions:
@@ -57,7 +58,12 @@ jobs:
           sed -i 's/minSdk = flutter.minSdkVersion/minSdk = 23/; s/minSdkVersion flutter.minSdkVersion/minSdkVersion 23/' android/app/build.gradle*
           # Release builds need INTERNET; Android 13+ needs POST_NOTIFICATIONS
           sed -i 's|<manifest xmlns:android="http://schemas.android.com/apk/res/android">|&\n    <uses-permission android:name="android.permission.INTERNET"/>\n    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>|' android/app/src/main/AndroidManifest.xml
-          sed -i 's/android:label="freegames"/android:label="Free Game Deals"/' android/app/src/main/AndroidManifest.xml
+          sed -i 's/android:label="freegames"/android:label="MPM Free Games"/' android/app/src/main/AndroidManifest.xml
+          # MPM branding: logo asset, launcher icons, notification icon
+          mkdir -p assets
+          if [ -d ../app/assets ]; then cp -r ../app/assets/. assets/; fi
+          pip install pillow
+          python3 ../scripts/make_icons.py .
 
       - name: Build release APK
         working-directory: build_app

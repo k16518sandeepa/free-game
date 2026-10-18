@@ -1,17 +1,5 @@
 [
   {
-    "id": "madmax",
-    "platform": "steam",
-    "title": "Mad Max",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/234140/header.jpg?t=1780595138",
-    "description": "Play as Mad Max, a reluctant hero and survivor who wants nothing more than to leave the madness behind and find solace.",
-    "claimUrl": "https://store.steampowered.com/app/234140/Mad_Max/",
-    "startDate": "2026-10-15T20:30:00",
-    "endDate": "2026-10-22T20:30:00",
-    "source": "manual",
-    "feed": "steam"
-  },
-  {
     "id": "fireside",
     "platform": "steam",
     "title": "Fireside Feelings",

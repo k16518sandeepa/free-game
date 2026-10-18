@@ -1,3 +1,4 @@
+[README.md](https://github.com/user-attachments/files/33628199/README.md)
 # Free Game Deals
 
 Native Android app (Flutter) with push notifications, fed by a `games.json` that updates itself in the cloud.
@@ -37,3 +38,10 @@ Dates are Sri Lanka time (`2026-10-09T22:30:00`). To hide an auto-added game, ad
 - Without `FIREBASE_SERVICE_ACCOUNT` the updater still works; it just skips pushes.
 - GitHub pauses scheduled workflows after 60 days with no repo activity; the bot's own commits normally keep it alive.
 - Push needs a real Android phone with Google Play services.
+
+## MPM branding
+
+- Put your logo at `app/assets/logo.png` (square PNG, 512x512 or bigger). The build uses it for the app icon and the logo in the app header. Without it, the build generates a red "M" placeholder.
+- The status-bar notification icon is always a white "M" silhouette (Android only allows a single-colour icon there). To change it, edit `M_POINTS` in `scripts/make_icons.py`.
+- Brand red is `#E50000` (`kMpmRed` in `app/lib/main.dart`).
+- After changing branding, re-run the "Build APK" workflow, uninstall the old app if the icon doesn't change, and install the new APK.

@@ -58,6 +58,18 @@
     "feed": "gamerpower"
   },
   {
+    "id": "epic-gethigh-exe",
+    "platform": "epic",
+    "title": "GetHigh.EXE",
+    "image": "https://www.gamerpower.com/offers/1b/6ad63cd807641.jpg",
+    "description": "Claim GetHigh.EXE for free via Epic Games Store! GetHigh.EXE is a casual 3d parkour game where you run and jump through an obstacle course to reach the top.",
+    "claimUrl": "https://www.gamerpower.com/open/gethigh-exe-epic-games-giveaway",
+    "startDate": "2026-10-19T17:22:56",
+    "endDate": "2026-11-03T05:29:00",
+    "source": "auto",
+    "feed": "gamerpower"
+  },
+  {
     "id": "itch-dual-chroma-academy-carols",
     "platform": "itch",
     "title": "Dual Chroma: Academy Carols",

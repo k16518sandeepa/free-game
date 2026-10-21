@@ -46,6 +46,18 @@
     "feed": "gamerpower"
   },
   {
+    "id": "epic-terraspace",
+    "platform": "epic",
+    "title": "Terraspace",
+    "image": "https://www.gamerpower.com/offers/1b/6ad9256e3eef5.jpg",
+    "description": "Download Terraspace for free via Epic Games Store! Terraspace is a casual city builder game about creating conditions for life on unsuitable planets.",
+    "claimUrl": "https://www.gamerpower.com/open/terraspace-epic-games-giveaway",
+    "startDate": "2026-10-21T22:19:50",
+    "endDate": "2026-10-28T05:29:00",
+    "source": "auto",
+    "feed": "gamerpower"
+  },
+  {
     "id": "itch-the-green-light",
     "platform": "itch",
     "title": "The Green Light",

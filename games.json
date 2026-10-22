@@ -10,30 +10,6 @@
     "endDate": "2026-10-12T22:30:00"
   },
   {
-    "id": "epic-agent-a-a-puzzle-in-disguise",
-    "platform": "epic",
-    "title": "Agent A: A puzzle in disguise",
-    "image": "https://cdn1.epicgames.com/spt-assets/45db4fbe68fe43f4b025dec2014d42e7/agent-a-a-puzzle-in-disguise-3cppl.png",
-    "description": "A suave secret agent adventure game. Your mission (should you choose to accept) is to infiltrate enemy spy Ruby La Rouge’s secret hideaway and put a stop to her evil plans!",
-    "claimUrl": "https://store.epicgames.com/en-US/p/agent-a-a-puzzle-in-disguise-42fe5f",
-    "startDate": "2026-10-15T20:30:00",
-    "endDate": "2026-10-22T20:30:00",
-    "source": "auto",
-    "feed": "epic"
-  },
-  {
-    "id": "epic-bad-cheese",
-    "platform": "epic",
-    "title": "Bad Cheese",
-    "image": "https://cdn1.epicgames.com/spt-assets/6cbb0e3805c4436bafd028cafff48307/bad-cheese-16hj0.png",
-    "description": "Bad Cheese is a psychological horror inspired by the eerie charm of 1920s animation. \nStep into the tiny paws of a mouse spending the weekend at home with a dysfunctional Dad while Mom's away. \nBe on your best behavior and KEEP DADDY HAPPY.",
-    "claimUrl": "https://store.epicgames.com/en-US/p/bad-cheese-4256d9",
-    "startDate": "2026-10-15T20:30:00",
-    "endDate": "2026-10-22T20:30:00",
-    "source": "auto",
-    "feed": "epic"
-  },
-  {
     "id": "itch-the-black-within",
     "platform": "itch",
     "title": "The Black Within",
@@ -58,6 +34,30 @@
     "feed": "gamerpower"
   },
   {
+    "id": "epic-home-a-unique-horror-adventure",
+    "platform": "epic",
+    "title": "Home - A Unique Horror Adventure",
+    "image": "https://cdn1.epicgames.com/spt-assets/46fc0cdb9f164a848e916249a8f68fc7/home-1f6qi.png",
+    "description": "Home is a unique horror adventure set in a beautifully-realized pixel world. It’s a murder mystery with a twist – because you decide what ultimately happens.",
+    "claimUrl": "https://store.epicgames.com/en-US/p/home-19212a",
+    "startDate": "2026-10-22T20:30:00",
+    "endDate": "2026-10-29T20:30:00",
+    "source": "auto",
+    "feed": "epic"
+  },
+  {
+    "id": "epic-sker-ritual",
+    "platform": "epic",
+    "title": "Sker Ritual",
+    "image": "https://cdn1.epicgames.com/spt-assets/43d96f4437e34c87b7eff08831d1b1de/sker-ritual-1tuka.png",
+    "description": "The round-based co-op survival FPS and spin-off to the award-winning British horror, Maid of Sker. Play solo or up to 4 players to survive the supernatural onslaught of the Quiet Ones.",
+    "claimUrl": "https://store.epicgames.com/en-US/p/sker-ritual-aac702",
+    "startDate": "2026-10-22T20:30:00",
+    "endDate": "2026-10-29T20:30:00",
+    "source": "auto",
+    "feed": "epic"
+  },
+  {
     "id": "itch-the-green-light",
     "platform": "itch",
     "title": "The Green Light",
@@ -66,6 +66,18 @@
     "claimUrl": "https://www.gamerpower.com/open/the-green-light-itch-io-giveaway",
     "startDate": "2026-10-17T22:25:46",
     "endDate": "2026-10-30T05:29:00",
+    "source": "auto",
+    "feed": "gamerpower"
+  },
+  {
+    "id": "epic-home",
+    "platform": "epic",
+    "title": "Home",
+    "image": "https://www.gamerpower.com/offers/1b/home.jpg",
+    "description": "Don´t miss this indie game! Grab Home for free via Epic Games Store! Home is a indie murder mystery game set in a 2d pixel world.\n\n*Please note this game is also available via Epic Games App (Android and iOS)!",
+    "claimUrl": "https://www.gamerpower.com/open/home",
+    "startDate": "2026-10-22T16:40:04",
+    "endDate": "2026-10-30T05:29:59",
     "source": "auto",
     "feed": "gamerpower"
   },

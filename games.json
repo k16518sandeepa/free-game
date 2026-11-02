@@ -10,18 +10,6 @@
     "endDate": "2026-10-12T22:30:00"
   },
   {
-    "id": "epic-mafia-hotel",
-    "platform": "epic",
-    "title": "MAFIA HOTEL",
-    "image": "https://www.gamerpower.com/offers/1b/6add376bc36a0.jpg",
-    "description": "Claim MAFIA HOTEL for free via Epic Games Store! MAFIA HOTEL is a 3d multiplayer social deduction game for up to 16 players.",
-    "claimUrl": "https://www.gamerpower.com/open/mafia-hotel-epic-games-giveaway",
-    "startDate": "2026-10-25T00:25:39",
-    "endDate": "2026-11-02T05:29:00",
-    "source": "auto",
-    "feed": "gamerpower"
-  },
-  {
     "id": "gog-a-new-beginning-final-cut",
     "platform": "gog",
     "title": "A New Beginning: Final Cut",
@@ -202,6 +190,18 @@
     "feed": "gamerpower"
   },
   {
+    "id": "epic-dark-mystery",
+    "platform": "epic",
+    "title": "Dark Mystery",
+    "image": "https://www.gamerpower.com/offers/1b/6ae7c63220dc4.jpg",
+    "description": "Claim Dark Mystery for free on Epic Games Store! Dark Mystery is a 2d platformer game with 35 exciting levels.",
+    "claimUrl": "https://www.gamerpower.com/open/dark-mystery-epic-games-giveaway",
+    "startDate": "2026-11-01T23:37:30",
+    "endDate": "2026-11-09T05:29:00",
+    "source": "auto",
+    "feed": "gamerpower"
+  },
+  {
     "id": "epic-epic-world-hunt-for-quest",
     "platform": "epic",
     "title": "Epic World - Hunt For Quest",
@@ -221,6 +221,30 @@
     "description": "Download Gladiator: Blades of Fury for free via Epic Games Store! Gladiator: Blades of Fury is a 3d melee fighting game set during the medieval period.",
     "claimUrl": "https://www.gamerpower.com/open/gladiator-blades-of-fury-epic-games-giveaway",
     "startDate": "2026-10-31T20:58:12",
+    "endDate": "2026-11-09T05:29:00",
+    "source": "auto",
+    "feed": "gamerpower"
+  },
+  {
+    "id": "epic-highway-driving",
+    "platform": "epic",
+    "title": "Highway Driving",
+    "image": "https://www.gamerpower.com/offers/1b/6ae7cab593610.jpg",
+    "description": "Score Highway Driving for free on Epic Games Store. Highway Driving is 3D racing game with casual gameplay.",
+    "claimUrl": "https://www.gamerpower.com/open/highway-driving-epic-games-giveaway",
+    "startDate": "2026-11-01T23:56:45",
+    "endDate": "2026-11-09T05:29:00",
+    "source": "auto",
+    "feed": "gamerpower"
+  },
+  {
+    "id": "epic-horse-racing",
+    "platform": "epic",
+    "title": "Horse Racing",
+    "image": "https://www.gamerpower.com/offers/1b/6ae7b210288b2.jpg",
+    "description": "Download Horse Racing for free via Epic Games Store until Nov 8.",
+    "claimUrl": "https://www.gamerpower.com/open/horse-racing-epic-games-giveaway",
+    "startDate": "2026-11-01T22:11:36",
     "endDate": "2026-11-09T05:29:00",
     "source": "auto",
     "feed": "gamerpower"

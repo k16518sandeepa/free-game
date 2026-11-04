@@ -10,18 +10,6 @@
     "endDate": "2026-10-12T22:30:00"
   },
   {
-    "id": "itch-octane100",
-    "platform": "itch",
-    "title": "Octane100",
-    "image": "https://www.gamerpower.com/offers/1b/6ae25d5c6c327.jpg",
-    "description": "Join the war against the oil corporation! Grab Octane100 for free via itch.io! Octane100 is a cool 2d turn-based action game with roguelike elements.",
-    "claimUrl": "https://www.gamerpower.com/open/octane100-itch-io-giveaway",
-    "startDate": "2026-10-28T22:08:52",
-    "endDate": "2026-11-04T05:29:00",
-    "source": "auto",
-    "feed": "gamerpower"
-  },
-  {
     "id": "itch-heirloom",
     "platform": "itch",
     "title": "Heirloom",

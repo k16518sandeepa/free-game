@@ -10,42 +10,6 @@
     "endDate": "2026-10-12T22:30:00"
   },
   {
-    "id": "itch-heirloom",
-    "platform": "itch",
-    "title": "Heirloom",
-    "image": "https://www.gamerpower.com/offers/1b/6ae257b2d5ad9.jpg",
-    "description": "Download Heirloom for free via itch.io! Heirloom is a small 2D platformer with retro pixel graphics.",
-    "claimUrl": "https://www.gamerpower.com/open/heirloom-itch-io-giveaway",
-    "startDate": "2026-10-28T21:44:42",
-    "endDate": "2026-11-05T05:29:00",
-    "source": "auto",
-    "feed": "gamerpower"
-  },
-  {
-    "id": "itch-molokaust",
-    "platform": "itch",
-    "title": "MOLOKAUST",
-    "image": "https://www.gamerpower.com/offers/1b/6ae25ef1a9917.jpg",
-    "description": "Download MOLOKAUST for free via itch.io! MOLOKAUST is a 3d first-person survival game with realistic graphics and unforgiving gameplay.",
-    "claimUrl": "https://www.gamerpower.com/open/molokaust-itch-io-giveaway",
-    "startDate": "2026-10-28T22:15:37",
-    "endDate": "2026-11-05T05:29:00",
-    "source": "auto",
-    "feed": "gamerpower"
-  },
-  {
-    "id": "itch-assassin-at-crimson-keep",
-    "platform": "itch",
-    "title": "Assassin at Crimson Keep",
-    "image": "https://www.gamerpower.com/offers/1b/62e41a3c35b09.jpg",
-    "description": "Download Assassin at Crimson Keep for free via itch.io! Assassin at Crimson Keep is a short visual novel set in a dark world! Check it out!",
-    "claimUrl": "https://www.gamerpower.com/open/assassin-at-crimson-keep",
-    "startDate": "2025-12-20T14:50:43",
-    "endDate": "2026-11-05T05:29:59",
-    "source": "auto",
-    "feed": "gamerpower"
-  },
-  {
     "id": "epic-sorry-we-re-closed",
     "platform": "epic",
     "title": "Sorry We're Closed",
@@ -138,6 +102,18 @@
     "claimUrl": "https://www.gamerpower.com/open/roseblight",
     "startDate": "2025-12-18T14:51:51",
     "endDate": "2026-11-06T05:29:59",
+    "source": "auto",
+    "feed": "gamerpower"
+  },
+  {
+    "id": "steam-letter-quest-grimm-s-journey-remastered-steam-key",
+    "platform": "steam",
+    "title": "Letter Quest: Grimm's Journey Remastered Steam Key",
+    "image": "https://www.gamerpower.com/offers/1b/6aeb27dbc0e38.jpg",
+    "description": "Grab free Steam keys for Letter Quest: Grimm's Journey Remastered via Fanatical! Letter Quest: Grimm's Journey Remastered is a 2d turn-based RPG with clever wordplay. Don´t miss it!",
+    "claimUrl": "https://www.gamerpower.com/open/letter-quest-grimm-s-journey-remastered-steam-key-giveaway",
+    "startDate": "2026-11-04T13:10:59",
+    "endDate": "2026-11-07T05:29:00",
     "source": "auto",
     "feed": "gamerpower"
   },

@@ -10,18 +10,6 @@
     "endDate": "2026-10-12T22:30:00"
   },
   {
-    "id": "epic-sorry-we-re-closed",
-    "platform": "epic",
-    "title": "Sorry We're Closed",
-    "image": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1orqh.png",
-    "description": "Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
-    "claimUrl": "https://store.epicgames.com/en-US/p/sorry-were-closed-724c86",
-    "startDate": "2026-10-29T20:30:00",
-    "endDate": "2026-11-05T21:30:00",
-    "source": "auto",
-    "feed": "epic"
-  },
-  {
     "id": "itch-cherophobia",
     "platform": "itch",
     "title": "Cherophobia",
@@ -29,30 +17,6 @@
     "description": "Download Cherophobia for free via Itch.io! Cherophobia is a short 3D psychological horror game.",
     "claimUrl": "https://www.gamerpower.com/open/cherophobia-itch-io-giveaway",
     "startDate": "2026-02-13T23:05:34",
-    "endDate": "2026-11-06T05:29:00",
-    "source": "auto",
-    "feed": "gamerpower"
-  },
-  {
-    "id": "itch-do-you-have-a-moment-to-talk-about-our-lord-and-savior",
-    "platform": "itch",
-    "title": "Do You Have a Moment to Talk About Our Lord and Savior?",
-    "image": "https://www.gamerpower.com/offers/1b/6946b8c46bc9b.jpg",
-    "description": "Grab “Do You Have a Moment to Talk About Our Lord and Savior?” for free on itch.io! A short 3D roguelike deckbuilder with retro PSX-style graphics.",
-    "claimUrl": "https://www.gamerpower.com/open/do-you-have-a-moment-to-talk-about-our-lord-and-savior-itch-io-giveaway",
-    "startDate": "2025-12-20T15:25:00",
-    "endDate": "2026-11-06T05:29:00",
-    "source": "auto",
-    "feed": "gamerpower"
-  },
-  {
-    "id": "itch-solace-inc-itchio",
-    "platform": "itch",
-    "title": "Solace Inc. (itchio)",
-    "image": "https://www.gamerpower.com/offers/1b/684151ffd5fd6.jpg",
-    "description": "Hack, slash, shoot, and blast! Download Solace Inc. for free on itchi.o. Solace Inc. is a 2D survivors-like game where you recruit your employees against endless hordes of enemies.",
-    "claimUrl": "https://www.gamerpower.com/open/solace-inc-itchio-giveaway",
-    "startDate": "2025-12-18T14:51:51",
     "endDate": "2026-11-06T05:29:00",
     "source": "auto",
     "feed": "gamerpower"
@@ -66,42 +30,6 @@
     "claimUrl": "https://www.gamerpower.com/open/very-realistic-game-dev-simulator-itch-io-giveaway",
     "startDate": "2026-02-16T15:20:41",
     "endDate": "2026-11-06T05:29:35",
-    "source": "auto",
-    "feed": "gamerpower"
-  },
-  {
-    "id": "itch-buckler-2",
-    "platform": "itch",
-    "title": "Buckler 2",
-    "image": "https://www.gamerpower.com/offers/1b/639f704bc35bc.jpg",
-    "description": "Download Buckler 2 for free via itch.io! Buckler 2 is a 2d retro-styled roguelite platformer with unique levels and a diverse cast of characters. Check it out!",
-    "claimUrl": "https://www.gamerpower.com/open/buckler-2-itch-io-giveaway",
-    "startDate": "2025-12-18T14:51:51",
-    "endDate": "2026-11-06T05:29:59",
-    "source": "auto",
-    "feed": "gamerpower"
-  },
-  {
-    "id": "itch-project-malice",
-    "platform": "itch",
-    "title": "Project Malice",
-    "image": "https://www.gamerpower.com/offers/1b/639e763b0c618.jpg",
-    "description": "Score Project Malice for free on itch.io! Project Malice is an indie isometric roguelike third-person shooter game about a ruined Earth.",
-    "claimUrl": "https://www.gamerpower.com/open/project-malice-itch-io-giveaway",
-    "startDate": "2025-12-18T14:51:51",
-    "endDate": "2026-11-06T05:29:59",
-    "source": "auto",
-    "feed": "gamerpower"
-  },
-  {
-    "id": "itch-roseblight",
-    "platform": "itch",
-    "title": "Roseblight",
-    "image": "https://www.gamerpower.com/offers/1b/61c3b92ec8e9f.jpg",
-    "description": "Grab Roseblight for free on itch.io! Roseblight is an RPG about a gardener with a dark secret...",
-    "claimUrl": "https://www.gamerpower.com/open/roseblight",
-    "startDate": "2025-12-18T14:51:51",
-    "endDate": "2026-11-06T05:29:59",
     "source": "auto",
     "feed": "gamerpower"
   },
@@ -188,6 +116,30 @@
     "endDate": "2026-11-09T05:29:00",
     "source": "auto",
     "feed": "gamerpower"
+  },
+  {
+    "id": "epic-flotsam",
+    "platform": "epic",
+    "title": "Flotsam",
+    "image": "https://cdn1.epicgames.com/spt-assets/5c36b876e80d4285b9993947efeeaf2b/flotsam-1yczl.jpg",
+    "description": "The floating garbage town survival game! Scavenge what precious garbage you can from the ocean's surface and grow your city while doing your best to survive in this colorful post-apocalyptic world.",
+    "claimUrl": "https://store.epicgames.com/en-US/p/flotsam-266287",
+    "startDate": "2026-11-05T21:30:00",
+    "endDate": "2026-11-12T21:30:00",
+    "source": "auto",
+    "feed": "epic"
+  },
+  {
+    "id": "epic-idle-champions-of-the-forgotten-realms",
+    "platform": "epic",
+    "title": "Idle Champions of the Forgotten Realms",
+    "image": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1cv5z.jpg",
+    "description": "Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.",
+    "claimUrl": "https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms",
+    "startDate": "2026-11-05T21:30:00",
+    "endDate": "2026-11-12T21:30:00",
+    "source": "auto",
+    "feed": "epic"
   },
   {
     "id": "itch-free-itch-io-games-bundle",

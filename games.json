@@ -10,30 +10,6 @@
     "endDate": "2026-10-12T22:30:00"
   },
   {
-    "id": "itch-cherophobia",
-    "platform": "itch",
-    "title": "Cherophobia",
-    "image": "https://www.gamerpower.com/offers/1b/698fa7369c1f5.jpg",
-    "description": "Download Cherophobia for free via Itch.io! Cherophobia is a short 3D psychological horror game.",
-    "claimUrl": "https://www.gamerpower.com/open/cherophobia-itch-io-giveaway",
-    "startDate": "2026-02-13T23:05:34",
-    "endDate": "2026-11-06T05:29:00",
-    "source": "auto",
-    "feed": "gamerpower"
-  },
-  {
-    "id": "itch-very-realistic-game-dev-simulator",
-    "platform": "itch",
-    "title": "Very Realistic Game Dev Simulator",
-    "image": "https://www.gamerpower.com/offers/1b/6946b7c157bca.jpg",
-    "description": "Are you planning on getting into game dev? Then this might be for you! Very Realistic Game Dev Simulator is free on Itch.io for a limited time!",
-    "claimUrl": "https://www.gamerpower.com/open/very-realistic-game-dev-simulator-itch-io-giveaway",
-    "startDate": "2026-02-16T15:20:41",
-    "endDate": "2026-11-06T05:29:35",
-    "source": "auto",
-    "feed": "gamerpower"
-  },
-  {
     "id": "steam-letter-quest-grimm-s-journey-remastered-steam-key",
     "platform": "steam",
     "title": "Letter Quest: Grimm's Journey Remastered Steam Key",
@@ -65,6 +41,18 @@
     "description": "Save 100% on Claim Epic World - Hunt For Quest via Epic Games Store! Epic World is a 2d platformer action game with hidden treasures and dangerous enemies.",
     "claimUrl": "https://www.gamerpower.com/open/epic-world-hunt-for-quest-epic-games-giveaway",
     "startDate": "2026-11-01T15:00:50",
+    "endDate": "2026-11-09T05:29:00",
+    "source": "auto",
+    "feed": "gamerpower"
+  },
+  {
+    "id": "epic-gmh-good-morning-human-giveaways",
+    "platform": "epic",
+    "title": "GMH - Good Morning Human Giveaways",
+    "image": "https://www.gamerpower.com/offers/1b/6aed159f0ca1d.jpg",
+    "description": "Claim GMH - Good Morning Human for free via Epic Games Store! In a synthwave-inspired universe, achieve the best possible scores by avoiding obstacles in your path.",
+    "claimUrl": "https://www.gamerpower.com/open/gmh-good-morning-human-epic-games-giveaways",
+    "startDate": "2026-11-06T00:17:43",
     "endDate": "2026-11-09T05:29:00",
     "source": "auto",
     "feed": "gamerpower"

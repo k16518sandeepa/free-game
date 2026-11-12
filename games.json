@@ -10,26 +10,14 @@
     "endDate": "2026-10-12T22:30:00"
   },
   {
-    "id": "epic-flotsam",
+    "id": "epic-knightica",
     "platform": "epic",
-    "title": "Flotsam",
-    "image": "https://cdn1.epicgames.com/spt-assets/5c36b876e80d4285b9993947efeeaf2b/flotsam-1yczl.jpg",
-    "description": "The floating garbage town survival game! Scavenge what precious garbage you can from the ocean's surface and grow your city while doing your best to survive in this colorful post-apocalyptic world.",
-    "claimUrl": "https://store.epicgames.com/en-US/p/flotsam-266287",
-    "startDate": "2026-11-05T21:30:00",
-    "endDate": "2026-11-12T21:30:00",
-    "source": "auto",
-    "feed": "epic"
-  },
-  {
-    "id": "epic-idle-champions-of-the-forgotten-realms",
-    "platform": "epic",
-    "title": "Idle Champions of the Forgotten Realms",
-    "image": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1cv5z.jpg",
-    "description": "Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.",
-    "claimUrl": "https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms",
-    "startDate": "2026-11-05T21:30:00",
-    "endDate": "2026-11-12T21:30:00",
+    "title": "Knightica",
+    "image": "https://cdn1.epicgames.com/spt-assets/357100ca5613420e98208c5f14585e9d/knightica-1nuxm.png",
+    "description": "Recruit units, place them strategically, and find the synergies in this Roguelike AutoBattler!\nKnightica lets you guide a warband through challenges to free the Kingdoms.\nDiscover combinations, weave powerful enchants, face dangerous monsters, and lead your army to victory!",
+    "claimUrl": "https://store.epicgames.com/en-US/p/knightica-3be45c",
+    "startDate": "2026-11-12T21:30:00",
+    "endDate": "2026-11-19T21:30:00",
     "source": "auto",
     "feed": "epic"
   },

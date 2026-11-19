@@ -10,18 +10,6 @@
     "endDate": "2026-10-12T22:30:00"
   },
   {
-    "id": "epic-knightica",
-    "platform": "epic",
-    "title": "Knightica",
-    "image": "https://cdn1.epicgames.com/spt-assets/357100ca5613420e98208c5f14585e9d/knightica-1nuxm.png",
-    "description": "Recruit units, place them strategically, and find the synergies in this Roguelike AutoBattler!\nKnightica lets you guide a warband through challenges to free the Kingdoms.\nDiscover combinations, weave powerful enchants, face dangerous monsters, and lead your army to victory!",
-    "claimUrl": "https://store.epicgames.com/en-US/p/knightica-3be45c",
-    "startDate": "2026-11-12T21:30:00",
-    "endDate": "2026-11-19T21:30:00",
-    "source": "auto",
-    "feed": "epic"
-  },
-  {
     "id": "itch-free-itch-io-games-bundle",
     "platform": "itch",
     "title": "Free itch.io Games Bundle",
@@ -32,6 +20,18 @@
     "endDate": "2026-11-23T05:29:00",
     "source": "auto",
     "feed": "gamerpower"
+  },
+  {
+    "id": "epic-mark-of-the-deep",
+    "platform": "epic",
+    "title": "Mark of the Deep",
+    "image": "https://cdn1.epicgames.com/spt-assets/83a240506a884c10ad8fb99694e57a0d/mark-of-the-deep-w1ygr.png",
+    "description": "Mark of the Deep is an epic pirate-themed adventure with a strong narrative and a thrilling mix of Metroidvania and Souls-Like elements. Embark on this journey, explore the mysteries of a cursed island and find your missing pirate crew!",
+    "claimUrl": "https://store.epicgames.com/en-US/p/mark-of-the-deep-f7dc08",
+    "startDate": "2026-11-19T21:30:00",
+    "endDate": "2026-11-26T21:30:00",
+    "source": "auto",
+    "feed": "epic"
   },
   {
     "id": "epic-contractor-the-clean-up-part-2",

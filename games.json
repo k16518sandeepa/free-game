@@ -10,18 +10,6 @@
     "endDate": "2026-10-12T22:30:00"
   },
   {
-    "id": "itch-free-itch-io-games-bundle",
-    "platform": "itch",
-    "title": "Free itch.io Games Bundle",
-    "image": "https://www.gamerpower.com/offers/1b/6ae264e50edb5.jpg",
-    "description": "Claim this bundle (worth $384) and download 116 games for free on itch.io! No strings attached!",
-    "claimUrl": "https://www.gamerpower.com/open/free-itch-io-games-bundle",
-    "startDate": "2026-10-28T22:41:01",
-    "endDate": "2026-11-23T05:29:00",
-    "source": "auto",
-    "feed": "gamerpower"
-  },
-  {
     "id": "epic-mark-of-the-deep",
     "platform": "epic",
     "title": "Mark of the Deep",

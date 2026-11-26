@@ -10,18 +10,6 @@
     "endDate": "2026-10-12T22:30:00"
   },
   {
-    "id": "epic-mark-of-the-deep",
-    "platform": "epic",
-    "title": "Mark of the Deep",
-    "image": "https://cdn1.epicgames.com/spt-assets/83a240506a884c10ad8fb99694e57a0d/mark-of-the-deep-w1ygr.png",
-    "description": "Mark of the Deep is an epic pirate-themed adventure with a strong narrative and a thrilling mix of Metroidvania and Souls-Like elements. Embark on this journey, explore the mysteries of a cursed island and find your missing pirate crew!",
-    "claimUrl": "https://store.epicgames.com/en-US/p/mark-of-the-deep-f7dc08",
-    "startDate": "2026-11-19T21:30:00",
-    "endDate": "2026-11-26T21:30:00",
-    "source": "auto",
-    "feed": "epic"
-  },
-  {
     "id": "epic-contractor-the-clean-up-part-2",
     "platform": "epic",
     "title": "Contractor: The Clean Up Part 2",
@@ -32,6 +20,30 @@
     "endDate": "2026-12-03T05:29:00",
     "source": "auto",
     "feed": "gamerpower"
+  },
+  {
+    "id": "epic-bread-and-fred",
+    "platform": "epic",
+    "title": "Bread and Fred",
+    "image": "https://cdn1.epicgames.com/spt-assets/545b4dd8bb364c12b719268198a93ef3/bread-and-fred-3jnwn.jpg",
+    "description": "Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
+    "claimUrl": "https://store.epicgames.com/en-US/p/bread-and-fred-1db362",
+    "startDate": "2026-11-26T21:30:00",
+    "endDate": "2026-12-03T21:30:00",
+    "source": "auto",
+    "feed": "epic"
+  },
+  {
+    "id": "epic-firestone-idle-clicker-online-rpg",
+    "platform": "epic",
+    "title": "Firestone – Idle Clicker Online RPG",
+    "image": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-1inmf.jpg",
+    "description": "Your heroes never stop fighting. Build an unstoppable team in a fantasy idle RPG with AFK progression and offline rewards. Collect heroes and powerful gear, master formations, defeat epic bosses, and return to bigger rewards and endless incremental growth.",
+    "claimUrl": "https://store.epicgames.com/en-US/p/firestone-online-idle-rpg-bfd04b",
+    "startDate": "2026-11-26T21:30:00",
+    "endDate": "2026-12-03T21:30:00",
+    "source": "auto",
+    "feed": "epic"
   },
   {
     "id": "itch-dual-chroma-academy-carols",

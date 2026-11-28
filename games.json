@@ -34,6 +34,18 @@
     "feed": "gamerpower"
   },
   {
+    "id": "itch-boots-quest-dx",
+    "platform": "itch",
+    "title": "Boots Quest DX",
+    "image": "https://www.gamerpower.com/offers/1b/64cd77c7ac5fe.jpg",
+    "description": "Download Boots Quest DX for free on itch.io! Boots Quest DX is a small adventure game with lots of puzzles and items to collect!",
+    "claimUrl": "https://www.gamerpower.com/open/boots-quest-dx-itch-io-giveaway",
+    "startDate": "2026-07-31T17:40:25",
+    "endDate": "2026-12-01T05:29:59",
+    "source": "auto",
+    "feed": "gamerpower"
+  },
+  {
     "id": "epic-contractor-the-clean-up-part-2",
     "platform": "epic",
     "title": "Contractor: The Clean Up Part 2",
@@ -68,6 +80,42 @@
     "endDate": "2026-12-03T21:30:00",
     "source": "auto",
     "feed": "epic"
+  },
+  {
+    "id": "itch-ba-b",
+    "platform": "itch",
+    "title": "Ba Bị",
+    "image": "https://www.gamerpower.com/offers/1b/6b0a1024d09c7.jpg",
+    "description": "Download Ba Bị for free on itch.io! Ba Bị 3D is a puzzle game based on Vietnamese folklore.",
+    "claimUrl": "https://www.gamerpower.com/open/n-a",
+    "startDate": "2026-11-27T23:50:04",
+    "endDate": "2026-12-05T05:29:00",
+    "source": "auto",
+    "feed": "gamerpower"
+  },
+  {
+    "id": "itch-lonely-in-the-winter",
+    "platform": "itch",
+    "title": "Lonely in the Winter",
+    "image": "https://www.gamerpower.com/offers/1b/6b0a113ba497d.jpg",
+    "description": "Claim Lonely in the Winter for free via itch.io! Lonely in the Winter is a small 2d rpg game with casual gameplay.",
+    "claimUrl": "https://www.gamerpower.com/open/lonely-in-the-winter-itch-io-giveaway",
+    "startDate": "2026-11-27T23:54:43",
+    "endDate": "2026-12-07T05:29:00",
+    "source": "auto",
+    "feed": "gamerpower"
+  },
+  {
+    "id": "itch-rulebound",
+    "platform": "itch",
+    "title": "Rulebound",
+    "image": "https://www.gamerpower.com/offers/1b/6b0a0de4276dc.jpg",
+    "description": "Score Rulebound for free via itch.io! Rulebound is a 3d surreal incremental game where survival depends on split attention.",
+    "claimUrl": "https://www.gamerpower.com/open/rulebound-itch-io-giveaway",
+    "startDate": "2026-11-27T23:40:28",
+    "endDate": "2027-01-01T05:29:00",
+    "source": "auto",
+    "feed": "gamerpower"
   },
   {
     "id": "itch-dual-chroma-academy-carols",
